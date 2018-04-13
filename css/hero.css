@@ -1,18 +1,25 @@
 html, body{
 	font-family: Montserrat, sans-serif;
 	margin: 0;
+	background-color: #99ffd6;
 
 }
 
 header{
 	background-color: #00ff99;
+	background-image: url('../img/background-pattern.jpg');
+	background-repeat: repeat;
 	padding: 40px;
 	text-align: center;
+	border-bottom: 10px solid red;
 }
 
 h1{
-	font-size: 90px;
+	font-size: 65px;
 	color: white;
+	text-shadow: 0 4px 20px black;
+	margin: 0;
+	text-transform: uppercase;
 }
 
 header img{
@@ -21,12 +28,14 @@ header img{
 	width: 250px;
 	object-fit: cover;
 	border: 18px solid #cc0000;
+	box-shadow: 0 10px 20px black;
 }
 
 .content{
 	max-width: 900px;
 	margin: 0 auto;
 	padding: 0 20px;
+
 }
 
 img.big-image{
